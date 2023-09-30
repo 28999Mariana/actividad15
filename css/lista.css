@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(177, 167, 197);
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+header {
+	position: relative;
+    margin: 1px auto 0;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+	border-radius: 20px;
+	background-color: rgb(123, 57, 254) ;
+}
+main{
+	width: 300px;
+	height: 400px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 30px 50px 100px #4b4e51; 
+	margin: -45px auto 0;
+}
+.tareas{
+	width: 250px;
+	height: 280px;
+	border-radius: 20px;
+	background-color: rgba(181, 149, 210, 0.616);
+	margin-left: 25px;
+	margin-top: -140px;
+	position: absolute;
+	padding: 10px;
+	z-index: 1;
+}
+.wrap h1{
+	text-align: left;
+	font-size: 16px;
+	color:white;
+	margin-top: 90px;
+	margin-left: 30px;
+}
+.tareas input{
+	margin-top: 2px;
+	width: 220px;
+	outline: none;
+	border:none;
+	background-color: rgb(254, 190, 0) ;
+	border-radius: 20px;
+	padding: 5px;
+	color:white; font-size: 14px;
+	font-weight: 600;
+}
+.tareas button{
+	margin-top: 15px;
+	width: 220px;
+	outline: none;
+	border:none;
+	background-color: rgb(254, 190, 0) ;
+	border-radius: 20px;
+	padding: 5px;
+	color:white; font-size: 14px;
+	font-weight: 600;
+}
+
